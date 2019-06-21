@@ -16,11 +16,11 @@ var soups2 = document.querySelector(".soups2");
 var salads2 = document.querySelector(".salads2");
 var burgers2 = document.querySelector(".burgers2");
 var sandwiches2 = document.querySelector(".sandwiches2");
-var iceCream2 = document.querySelector(".IceCream2");
+var iceCream2 = document.querySelector(".iceCream2");
 var seafood2 = document.querySelector(".seafood2");
 var breakfast2 = document.querySelector(".breakfast2");
 var steak2 = document.querySelector(".steak2");
-var tacos2 = document.querySelector(".Tacos2");
+var tacos2 = document.querySelector(".tacos2");
 var btn = $(".btn")
 
 btn.on("click", myFood)
