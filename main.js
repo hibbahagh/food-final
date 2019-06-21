@@ -1,92 +1,96 @@
-var pasta = document.getElementsByClassName(".pasta");
-var pizza = document.getElementsByClassName(".pizza");
-var soups = document.getElementsByClassName(".soups");
-var salads = document.getElementsByClassName(".salads");
-var burgers = document.getElementsByClassName(".burgers");
-var sandwhiches = document.getElementsByClassName(".sandwhiches");
-var ice-cream = document.getElementsByClassName(".ice-cream");
-var seafood = document.getElementsByClassName(".seafood");
-var breakfast = document.getElementsByClassName(".breakfast");
-var steak = document.getElementsByClassName(".steak");
-var tacos = document.getElementsByClassName(".tacos");
-// all the var that are grabbing
+var pasta = document.querySelector(".pasta");
+var pizza = document.querySelector(".pizza");
+var soups = document.querySelector(".soups");
+var salads = document.querySelector(".salads");
+var burgers = document.querySelector(".burgers");
+var sandwiches = document.querySelector(".sandwiches");
+var iceCream = document.querySelector(".ice-cream");
+var seafood = document.querySelector(".seafood");
+var breakfast = document.querySelector(".breakfast");
+var steak = document.querySelector(".steak");
+var tacos = document.querySelector(".tacos");
+
+var pasta2 = document.querySelector(".pasta2");
+var pizza2 = document.querySelector(".pizza2");
+var soups2 = document.querySelector(".soups2");
+var salads2 = document.querySelector(".salads2");
+var burgers2 = document.querySelector(".burgers2");
+var sandwiches2 = document.querySelector(".sandwiches2");
+var iceCream2 = document.querySelector(".IceCream2");
+var seafood2 = document.querySelector(".seafood2");
+var breakfast2 = document.querySelector(".breakfast2");
+var steak2 = document.querySelector(".steak2");
+var tacos2 = document.querySelector(".Tacos2");
+var btn = $(".btn")
+
+btn.on("click", myFood)
+
+function myFood(event){
+  event.preventDefault()
+
+if (pasta.checked == true) {
+pasta2.style.visibility ="visible";
+   } else {
+     pasta2.style.visibility ="hidden";
+   }
+
+if (pizza.checked == true) {
+    pizza2.style.visibility ="visible";
+   } else {
+    pizza2.style.visibility ="hidden";
+   }
+
+  if (soups.checked == true) {
+      soups2.style.visibility ="visible";
+   } else {
+     soups2.style.visibility ="hidden";
+   }
 //
-//
-// function myFood(){
-// if (pasta.checked == true) {
-//   pasta.addClass('show')
-//   pasta.removeClass('hide')
-//    } else {
-//      pasta.classList.add('hide')
-//      paste.classList.remove('show')
-// if (pizza.checked == true) {
-//   pizza.addClass('show')
-//   pizza.removeClass('hide')
-//    } else {
-//      pizza.addClass('hide')
-//      pizza.removeClass('show')}
-//
-//   if (soups.checked == true) {
-//     soups.addClass('show')
-//     soups.removeClass('hide')
-//      } else {
-//        soups.addClass('hide')
-//        soups.removeClass('show')}
-//
-//
-//   if (salads.checked == true) {
-//     salads.addClass('show')
-//     salads.removeClass('hide')
-//      } else {
-//        salads.addClass('hide')
-//        salads.removeClass('show')}
-//
-//     if (burgers.checked == true) {
-//       burgers.addClass('show')
-//       burgers.removeClass('hide')
-//        } else {
-//          burgers.addClass('hide')
-//          burgers.removeClass('show')}
-//
-// if (sandwhiches.checked == true) {
-//   sandwhiches.addClass('show')
-//   sandwhiches.removeClass('hide')
-//    } else {
-//      sandwhiches.addClass('hide')
-//      sandwhiches.removeClass('show')}
-//
-// if (ice-cream.checked == true) {
-//   ice-cream.addClass('show')
-//   ice-cream.removeClass('hide')
-//    } else {
-//      ice-cream.addClass('hide')
-//      ice-cream.removeClass('show')}
-//
-//   if (seafood.checked == true) {
-//     seafood.addClass('show')
-//     seafood.removeClass('hide')
-//      } else {
-//        seafood.addClass('hide')
-//        seafood.removeClass('show')}
-//
-// if (breakfast.checked == true) {
-//   breakfast.addClass('show')
-//   breakfast.removeClass('hide')
-//    } else {
-//      breakfast.addClass('hide')
-//      breakfast.removeClass('show')}
-//
-// if (steak.checked == true) {
-//   steak.addClass('show')
-//   steak.removeClass('hide')
-//    } else {
-//      steak.addClass('hide')
-//      steak.removeClass('show')}
-//
-// if (tacos.checked == true) {
-//   tacos.addClass('show')
-//   tacos.removeClass('hide')
-//    } else {
-//      tacos.addClass('hide')
-//      tacos.removeClass('show')}
-// }
+  if (salads.checked == true) {
+    salads2.style.visibility ="visible";
+ } else {
+   salads2.style.visibility ="hidden";
+ }
+
+    if (burgers.checked == true) {
+      burgers2.style.visibility ="visible";
+   } else {
+     burgers2.style.visibility ="hidden";
+   }
+
+if (sandwiches.checked == true) {
+  sandwiches2.style.visibility ="visible";
+} else {
+ sandwiches2.style.visibility ="hidden";
+}
+
+if (iceCream.checked == true) {
+  iceCream2.style.visibility ="visible";
+} else {
+ iceCream2.style.visibility ="hidden";
+}
+
+  if (seafood.checked == true) {
+    seafood2.style.visibility ="visible";
+ } else {
+   seafood2.style.visibility ="hidden";
+ }
+
+if (breakfast.checked == true) {
+  breakfast2.style.visibility ="visible";
+} else {
+ breakfast2.style.visibility ="hidden";
+}
+
+if (steak.checked == true) {
+  steak2.style.visibility ="visible";
+   } else {
+     steak2.style.visibility ="hidden";
+   }
+
+if (tacos.checked == true) {
+  tacos2.style.visibility ="visible";
+} else {
+ tacos2.style.visibility ="hidden";
+}
+}

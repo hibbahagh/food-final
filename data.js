@@ -1,4 +1,4 @@
-export var food = {
+var food = {
   burgers:[{name:"Illegal burgers", link:"https://www.illegalburger.com/"}],
   pizza:[{name:"Pizza Republica", link:"https://pizzarepublica.com/"}],
   Soups:[{name:"ChoLon", link:"https://www.cholon.com/denver/" }],
